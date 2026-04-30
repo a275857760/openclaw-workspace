@@ -49,7 +49,6 @@ skills/               技能包（开箱即用）
 | `在线搜索` | SkillHub | `skillhub install 在线搜索` |
 | `新闻摘要` | SkillHub | `skillhub install 新闻摘要` |
 | `定时任务` | SkillHub | `skillhub install 定时任务` |
-| `协作文档` | SkillHub | `skillhub install 协作文档` |
 | `笔记知识库` | SkillHub | `skillhub install 笔记知识库` |
 | `深度讲解` | SkillHub | `skillhub install 深度讲解` |
 | `学习打卡` | SkillHub | `skillhub install 学习打卡` |
@@ -72,7 +71,6 @@ skills/               技能包（开箱即用）
 | `金山文档` | SkillHub | `skillhub install 金山文档` |
 | `营养顾问` | SkillHub | `skillhub install 营养顾问` |
 | `科技新闻` | SkillHub | `skillhub install 科技新闻` |
-| `协作文档` | SkillHub | `skillhub install 协作文档` |
 | `文件整理` | SkillHub | `skillhub install 文件整理` |
 | `文本文件` | SkillHub | `skillhub install 文本文件` |
 | `云端备份` | SkillHub | `skillhub install 云端备份` |
@@ -81,7 +79,6 @@ skills/               技能包（开箱即用）
 | `技能审查` | SkillHub | `skillhub install 技能审查` |
 | `系统规则` | SkillHub | `skillhub install 系统规则` |
 | `画布设计` | SkillHub | `skillhub install 画布设计` |
-| `天气顾问` | SkillHub | `skillhub install 天气顾问` |
 | `睡眠顾问` | SkillHub | `skillhub install night-owl-shrimp` |
 | `MBTI配对` | SkillHub | `skillhub install mbti-matcher` |
 | `协作文档(腾讯)` | SkillHub | `skillhub install youdaonote` |
@@ -103,12 +100,13 @@ skills/               技能包（开箱即用）
 ## 📡 部署脚本（一键安装 Skills）
 
 ```bash
-# 安装所有公开 Skills
-skillhub install mental-health-assistant
+# 示例：安装常用 Skills（mental-health-assistant 已在仓库中，无需重复安装）
 skillhub install 天气顾问
 skillhub install 在线搜索
 skillhub install 定时任务
-# ... 按需添加
+skillhub install 浏览器自动化
+skillhub install PDF处理
+# ... 按需添加，运行 skillhub search <关键词> 搜索更多
 ```
 
 ---
